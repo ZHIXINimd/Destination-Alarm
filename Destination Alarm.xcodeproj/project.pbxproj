@@ -56,15 +56,39 @@
 		708910402439E093001707BC /* Destination Alarm */ = {
 			isa = PBXGroup;
 			children = (
-				708910412439E093001707BC /* AppDelegate.swift */,
-				708910432439E093001707BC /* SceneDelegate.swift */,
-				708910452439E093001707BC /* ViewController.swift */,
-				708910472439E093001707BC /* Main.storyboard */,
-				7089104A2439E095001707BC /* Assets.xcassets */,
-				7089104C2439E095001707BC /* LaunchScreen.storyboard */,
+				708910552439E0A2001707BC /* Supporting */,
+				708910572439E0B7001707BC /* Controller */,
+				708910562439E0AF001707BC /* View */,
 				7089104F2439E095001707BC /* Info.plist */,
 			);
 			path = "Destination Alarm";
+			sourceTree = "<group>";
+		};
+		708910552439E0A2001707BC /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				708910412439E093001707BC /* AppDelegate.swift */,
+				708910432439E093001707BC /* SceneDelegate.swift */,
+				7089104A2439E095001707BC /* Assets.xcassets */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		708910562439E0AF001707BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				708910472439E093001707BC /* Main.storyboard */,
+				7089104C2439E095001707BC /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		708910572439E0B7001707BC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				708910452439E093001707BC /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
